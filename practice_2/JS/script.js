@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-let numberOfFilms = +prompt("Какое колличество фильмов вы посмотрели?", "");
+let numberOfFilms = +prompt('Какое колличество фильмов вы посмотрели?', '');
 
 
 const personalMovieDB = {
@@ -27,7 +27,30 @@ for (let i = 0; i < 2; i++) {
         console.log('error');
         i--;
     }
-    
 }
+
+
+
+switch (personalMovieDB) {
+    case personalMovieDB.count < 10:
+        console.log("Вы посмотрели мало фильмов");
+        break;
+    case personalMovieDB.count >= 10 && personalMovieDB.count < 30:
+        console.log("Вы классический зритель");
+        break;
+    case personalMovieDB.count >= 30:
+        console.log('Вы киноман');
+        break;
+}
+
+// if (personalMovieDB.count < 10) {
+//     console.log("Вы посмотрели мало фильмов");
+// } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//     console.log("Вы классический зритель");
+// } else if (personalMovieDB.count >= 30) {
+//     console.log('Вы киноман');
+// } else {
+//     console.log('error');
+// }
 
 console.log(personalMovieDB);
