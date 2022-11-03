@@ -31,7 +31,7 @@ for (let i = 0; i < 2; i++) {
 
 
 
-switch (personalMovieDB) {
+switch (true) {
     case personalMovieDB.count < 10:
         console.log("Вы посмотрели мало фильмов");
         break;
