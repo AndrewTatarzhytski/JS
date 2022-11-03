@@ -29,7 +29,7 @@ const anotheNum = ret();
 console.log(anotheNum);
 
 const logger = function () {
-    console.log("Hello")
+    console.log("Hello");
 };
 
 logger();
