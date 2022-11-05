@@ -25,9 +25,9 @@ console.log(border);
 const { borderTop, borderBottom  } = options.width;
 console.log(borderBottom);
 
-// console.log(Object.keys(options)); // получение массива с ключами объекта
+// console.log(Object.keys(options)); // получение массива со свойствами объекта
 
-// console.log(Object.keys(options).length); // получение колличества ключей в объекте
+// console.log(Object.keys(options).length); // получение колличества свойств в объекте
 
 // console.log(options["colors"]["border"]);
 
