@@ -16,12 +16,29 @@ const now = new Date('2022-12-08');
 // console.log(now.setHours(40));
 // console.log(now);
 
-let start = new Date();
+// switch (now.getDay()) { // выводить название дня недели
+//     case 1:
+//         console.log('понедельник');
+//         break;
+//     case 2:
+//         console.log('вторник');
+//         break;
+//     case 3:
+//         console.log('среда');
+//         break;
+//     case 4:
+//         console.log('четверг');
+//         break;
+//     default:
+//         break;
+// }
 
-for (let i=0; i<100000; i++){
-    let some = i ** 3; // i**n возведение в степень (вместо n число)
-}
+// let start = new Date();
 
-let end = new Date();
+// for (let i=0; i<100000; i++){
+//     let some = i ** 3; // i**n возведение в степень (вместо n число)
+// }
 
-alert (`цикл отработал за ${end - start}ms`)
+// let end = new Date();
+
+// alert (`цикл отработал за ${end - start}ms`)
