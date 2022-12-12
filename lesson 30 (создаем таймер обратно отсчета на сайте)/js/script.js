@@ -1,4 +1,4 @@
-'use strict'; // 038 создаем табы в новом проекте
+'use strict'; // 041 создаем таймер обратно отсчета на сайте
 
 window.addEventListener('DOMContentLoaded', () => {
     // ТАБЫ
