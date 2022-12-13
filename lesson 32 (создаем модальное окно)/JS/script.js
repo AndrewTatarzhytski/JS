@@ -1,4 +1,4 @@
-'use strict'; // 041 создаем таймер обратно отсчета на сайте
+'use strict'; // 043 Создаем модальное окно
 
 window.addEventListener('DOMContentLoaded', () => {
     // ТАБЫ
